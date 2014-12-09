@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682DB5CA1A377837009CAACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 682DB5C91A377837009CAACC /* AppDelegate.m */; };
+		682DB5CC1A377837009CAACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 682DB5CB1A377837009CAACC /* main.m */; };
+		682DB5CE1A377837009CAACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682DB5CD1A377837009CAACC /* Images.xcassets */; };
+		682DB5D11A377837009CAACC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682DB5CF1A377837009CAACC /* MainMenu.xib */; };
+		682DB5DD1A377837009CAACC /* KSTableViewDragDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 682DB5DC1A377837009CAACC /* KSTableViewDragDropTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		682DB5D71A377837009CAACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 682DB5BB1A377837009CAACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682DB5C21A377837009CAACC;
+			remoteInfo = KSTableViewDragDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		682DB5C31A377837009CAACC /* KSTableViewDragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSTableViewDragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		682DB5C71A377837009CAACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682DB5C81A377837009CAACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		682DB5C91A377837009CAACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		682DB5CB1A377837009CAACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		682DB5CD1A377837009CAACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		682DB5D01A377837009CAACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		682DB5D61A377837009CAACC /* KSTableViewDragDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSTableViewDragDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		682DB5DB1A377837009CAACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682DB5DC1A377837009CAACC /* KSTableViewDragDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSTableViewDragDropTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682DB5C01A377837009CAACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682DB5D31A377837009CAACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		682DB5BA1A377837009CAACC = {
+			isa = PBXGroup;
+			children = (
+				682DB5C51A377837009CAACC /* KSTableViewDragDrop */,
+				682DB5D91A377837009CAACC /* KSTableViewDragDropTests */,
+				682DB5C41A377837009CAACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		682DB5C41A377837009CAACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682DB5C31A377837009CAACC /* KSTableViewDragDrop.app */,
+				682DB5D61A377837009CAACC /* KSTableViewDragDropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		682DB5C51A377837009CAACC /* KSTableViewDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				682DB5C81A377837009CAACC /* AppDelegate.h */,
+				682DB5C91A377837009CAACC /* AppDelegate.m */,
+				682DB5CD1A377837009CAACC /* Images.xcassets */,
+				682DB5CF1A377837009CAACC /* MainMenu.xib */,
+				682DB5C61A377837009CAACC /* Supporting Files */,
+			);
+			path = KSTableViewDragDrop;
+			sourceTree = "<group>";
+		};
+		682DB5C61A377837009CAACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				682DB5C71A377837009CAACC /* Info.plist */,
+				682DB5CB1A377837009CAACC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		682DB5D91A377837009CAACC /* KSTableViewDragDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				682DB5DC1A377837009CAACC /* KSTableViewDragDropTests.m */,
+				682DB5DA1A377837009CAACC /* Supporting Files */,
+			);
+			path = KSTableViewDragDropTests;
+			sourceTree = "<group>";
+		};
+		682DB5DA1A377837009CAACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				682DB5DB1A377837009CAACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682DB5C21A377837009CAACC /* KSTableViewDragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682DB5E01A377837009CAACC /* Build configuration list for PBXNativeTarget "KSTableViewDragDrop" */;
+			buildPhases = (
+				682DB5BF1A377837009CAACC /* Sources */,
+				682DB5C01A377837009CAACC /* Frameworks */,
+				682DB5C11A377837009CAACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSTableViewDragDrop;
+			productName = KSTableViewDragDrop;
+			productReference = 682DB5C31A377837009CAACC /* KSTableViewDragDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		682DB5D51A377837009CAACC /* KSTableViewDragDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682DB5E31A377837009CAACC /* Build configuration list for PBXNativeTarget "KSTableViewDragDropTests" */;
+			buildPhases = (
+				682DB5D21A377837009CAACC /* Sources */,
+				682DB5D31A377837009CAACC /* Frameworks */,
+				682DB5D41A377837009CAACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682DB5D81A377837009CAACC /* PBXTargetDependency */,
+			);
+			name = KSTableViewDragDropTests;
+			productName = KSTableViewDragDropTests;
+			productReference = 682DB5D61A377837009CAACC /* KSTableViewDragDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		682DB5BB1A377837009CAACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Knowstack;
+				TargetAttributes = {
+					682DB5C21A377837009CAACC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					682DB5D51A377837009CAACC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 682DB5C21A377837009CAACC;
+					};
+				};
+			};
+			buildConfigurationList = 682DB5BE1A377837009CAACC /* Build configuration list for PBXProject "KSTableViewDragDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 682DB5BA1A377837009CAACC;
+			productRefGroup = 682DB5C41A377837009CAACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682DB5C21A377837009CAACC /* KSTableViewDragDrop */,
+				682DB5D51A377837009CAACC /* KSTableViewDragDropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682DB5C11A377837009CAACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682DB5CE1A377837009CAACC /* Images.xcassets in Resources */,
+				682DB5D11A377837009CAACC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682DB5D41A377837009CAACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682DB5BF1A377837009CAACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682DB5CC1A377837009CAACC /* main.m in Sources */,
+				682DB5CA1A377837009CAACC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682DB5D21A377837009CAACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682DB5DD1A377837009CAACC /* KSTableViewDragDropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		682DB5D81A377837009CAACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682DB5C21A377837009CAACC /* KSTableViewDragDrop */;
+			targetProxy = 682DB5D71A377837009CAACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		682DB5CF1A377837009CAACC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682DB5D01A377837009CAACC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		682DB5DE1A377837009CAACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		682DB5DF1A377837009CAACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		682DB5E11A377837009CAACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KSTableViewDragDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		682DB5E21A377837009CAACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KSTableViewDragDrop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		682DB5E41A377837009CAACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSTableViewDragDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSTableViewDragDrop.app/Contents/MacOS/KSTableViewDragDrop";
+			};
+			name = Debug;
+		};
+		682DB5E51A377837009CAACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KSTableViewDragDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSTableViewDragDrop.app/Contents/MacOS/KSTableViewDragDrop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682DB5BE1A377837009CAACC /* Build configuration list for PBXProject "KSTableViewDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682DB5DE1A377837009CAACC /* Debug */,
+				682DB5DF1A377837009CAACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682DB5E01A377837009CAACC /* Build configuration list for PBXNativeTarget "KSTableViewDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682DB5E11A377837009CAACC /* Debug */,
+				682DB5E21A377837009CAACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		682DB5E31A377837009CAACC /* Build configuration list for PBXNativeTarget "KSTableViewDragDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682DB5E41A377837009CAACC /* Debug */,
+				682DB5E51A377837009CAACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 682DB5BB1A377837009CAACC /* Project object */;
+}
